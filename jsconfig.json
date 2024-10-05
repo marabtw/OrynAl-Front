@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@router": ["src/router"],
+      "@router/*": ["src/router/*"],
+      "@modules": ["src/modules"],
+      "@modules/*": ["src/modules/*"],
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"],
+
+      "@hooks": ["src/shared/hooks"],
+      "@hooks/*": ["src/shared/hooks/*"],
+      "@lib": ["src/shared/lib"],
+      "@lib/*": ["src/shared/lib/*"],
+      "@helpers/*": ["src/shared/helpers/*"],
+      "@helpers": ["src/shared/helpers"],
+      "@utils/*": ["src/shared/utils/*"],
+      "@utils": ["src/shared/utils"],
+      "@rejex/*": ["src/shared/rejex/*"],
+      "@rejex": ["src/shared/rejex"],
+      "@ui": ["src/shared/ui"],
+      "@ui/*": ["src/shared/ui/*"],
+			
+      "@context/*": ["src/shared/context/*"],
+      "@context": ["src/shared/context"],
+      "@store/*": ["src/shared/store/*"],
+      "@store": ["src/shared/store"],
+			
+      "@assets/*": ["src/ashared/ssets/*"],
+      "@assets": ["src/shared/assets"],
+      "@styles/*": ["src/styles/*"],
+      "@styles": ["src/styles"],
+
+      "@data/*": ["src/shared/data/*"],
+      "@data": ["src/shared/data"]
+    }
+  }
+}
